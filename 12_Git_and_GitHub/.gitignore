@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.venv/
+env/
+ENV/
+
+# Build Outputs
+dist/
+build/
+.next/
+out/
+*.egg-info/
+
+# Python Cache & Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# ML Model Persistence
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & OS Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
